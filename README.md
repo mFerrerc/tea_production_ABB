@@ -1,12 +1,26 @@
+<div align="justify">
+  
 # Sistema Automatizado de Empaquetado de Té
 
 Este repositorio contiene el desarrollo completo de un proyecto de automatización llevado a cabo en el Grado en Ingeniería Robótica. El objetivo ha sido diseñar, simular y documentar una estación automatizada capaz de empaquetar bolsas de té en cajas, de forma completamente autónoma, utilizando robots industriales y cintas transportadoras.
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/8d74865f-e777-4591-8e08-cd07c62a1524 />
+</p>
 
 ## Descripción general del proyecto
 
 El sistema simula una línea de empaquetado en la que intervienen tres robots industriales ABB IRB 365 y cuatro cintas transportadoras. Los robots realizan tareas de alimentación, colocación y cierre de cajas, mientras que las cintas se encargan del transporte de bolsas, cajas y tapaderas en distintas fases del proceso.
 
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/900224fe-4e8a-4ba5-ad4e-626431681718 />
+</p>
+
 Todo el sistema ha sido diseñado y probado en el entorno de simulación RobotStudio, y ha sido programado en lenguaje RAPID, el estándar de ABB para robots industriales. Además, los objetos utilizados, como las cajas, bolsas, tapaderas y herramientas de sujeción, han sido diseñados en Autodesk Inventor y posteriormente integrados en la simulación.
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/cd4cdc36-e847-4410-8748-5e6a9cd9a0b1 />
+</p>
 
 ## Estructura y funcionamiento
 
@@ -36,3 +50,4 @@ Para reproducir el entorno en RobotStudio, es necesario instalar la versión Rob
 
 Este proyecto refleja una aproximación realista a un proceso industrial de empaquetado, y constituye una base sólida para su posible adaptación a aplicaciones reales. Combina diseño mecánico, programación de robots, lógica de control y simulación industrial, demostrando la importancia de la sincronización y la fiabilidad en entornos automatizados.
 
+</div>
