@@ -26,10 +26,6 @@ Todo el sistema ha sido diseñado y probado en el entorno de simulación RobotSt
 
 El flujo de trabajo se inicia con la generación de una caja vacía, que es transportada a la estación de llenado. Mientras tanto, los robots 1 y 2 colocan bolsas de té sobre una cinta, que las conduce hasta el robot 3. Este robot recoge las bolsas y las coloca cuidadosamente dentro de la caja, formando dos capas de 12 unidades cada una. Una vez llena, el robot recoge una tapadera de otra cinta y la coloca sobre la caja. Finalmente, la caja cerrada es empujada por un pistón hacia una cuarta cinta que la saca del sistema.
 
-<p align="center">
-  <img src=https://github.com/user-attachments/assets/e18af599-37c3-4a3d-b5f4-6b3c327cdba9 />
-</p>
-
 Todo el proceso está gestionado mediante sensores y señales digitales que aseguran una sincronización precisa entre robots y estaciones. Se ha prestado especial atención a la lógica de control, dividiendo cada parte del sistema en ciclos claros y bien definidos.
 
 ## Elementos destacados
