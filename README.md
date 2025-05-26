@@ -1,20 +1,33 @@
+<div align="justify">
 # Sistema Automatizado de Empaquetado de Té
 
 Este repositorio contiene el desarrollo completo de un proyecto de automatización llevado a cabo en el Grado en Ingeniería Robótica. El objetivo ha sido diseñar, simular y documentar una estación automatizada capaz de empaquetar bolsas de té en cajas, de forma completamente autónoma, utilizando robots industriales y cintas transportadoras.
-c![image](https://github.com/user-attachments/assets/8d74865f-e777-4591-8e08-cd07c62a1524)
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/8d74865f-e777-4591-8e08-cd07c62a1524 />
+</p>
 
 ## Descripción general del proyecto
 
 El sistema simula una línea de empaquetado en la que intervienen tres robots industriales ABB IRB 365 y cuatro cintas transportadoras. Los robots realizan tareas de alimentación, colocación y cierre de cajas, mientras que las cintas se encargan del transporte de bolsas, cajas y tapaderas en distintas fases del proceso.
-![image](https://github.com/user-attachments/assets/900224fe-4e8a-4ba5-ad4e-626431681718)
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/900224fe-4e8a-4ba5-ad4e-626431681718 />
+</p>
 
 Todo el sistema ha sido diseñado y probado en el entorno de simulación RobotStudio, y ha sido programado en lenguaje RAPID, el estándar de ABB para robots industriales. Además, los objetos utilizados, como las cajas, bolsas, tapaderas y herramientas de sujeción, han sido diseñados en Autodesk Inventor y posteriormente integrados en la simulación.
-![image](https://github.com/user-attachments/assets/cd4cdc36-e847-4410-8748-5e6a9cd9a0b1)
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/cd4cdc36-e847-4410-8748-5e6a9cd9a0b1 />
+</p>
 
 ## Estructura y funcionamiento
 
 El flujo de trabajo se inicia con la generación de una caja vacía, que es transportada a la estación de llenado. Mientras tanto, los robots 1 y 2 colocan bolsas de té sobre una cinta, que las conduce hasta el robot 3. Este robot recoge las bolsas y las coloca cuidadosamente dentro de la caja, formando dos capas de 12 unidades cada una. Una vez llena, el robot recoge una tapadera de otra cinta y la coloca sobre la caja. Finalmente, la caja cerrada es empujada por un pistón hacia una cuarta cinta que la saca del sistema.
-![image](https://github.com/user-attachments/assets/e18af599-37c3-4a3d-b5f4-6b3c327cdba9)
+
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/e18af599-37c3-4a3d-b5f4-6b3c327cdba9 />
+</p>
 
 Todo el proceso está gestionado mediante sensores y señales digitales que aseguran una sincronización precisa entre robots y estaciones. Se ha prestado especial atención a la lógica de control, dividiendo cada parte del sistema en ciclos claros y bien definidos.
 
@@ -39,4 +52,6 @@ Para reproducir el entorno en RobotStudio, es necesario instalar la versión Rob
 ---
 
 Este proyecto refleja una aproximación realista a un proceso industrial de empaquetado, y constituye una base sólida para su posible adaptación a aplicaciones reales. Combina diseño mecánico, programación de robots, lógica de control y simulación industrial, demostrando la importancia de la sincronización y la fiabilidad en entornos automatizados.
+
+</div>
 
