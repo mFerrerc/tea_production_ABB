@@ -1,4 +1,5 @@
 <div align="justify">
+  
 # Sistema Automatizado de Empaquetado de Té
 
 Este repositorio contiene el desarrollo completo de un proyecto de automatización llevado a cabo en el Grado en Ingeniería Robótica. El objetivo ha sido diseñar, simular y documentar una estación automatizada capaz de empaquetar bolsas de té en cajas, de forma completamente autónoma, utilizando robots industriales y cintas transportadoras.
