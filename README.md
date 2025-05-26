@@ -51,3 +51,4 @@ Para reproducir el entorno en RobotStudio, es necesario instalar la versión Rob
 Este proyecto refleja una aproximación realista a un proceso industrial de empaquetado, y constituye una base sólida para su posible adaptación a aplicaciones reales. Combina diseño mecánico, programación de robots, lógica de control y simulación industrial, demostrando la importancia de la sincronización y la fiabilidad en entornos automatizados.
 
 </div>
+
